@@ -1,0 +1,217 @@
+INFO - 2023-03-13 10:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-13 10:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-13 13:17:43 --> Too few arguments to function App\Models\MonModele::__construct(), 0 passed in C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php on line 25 and exactly 1 expected
+in APPPATH\Models\MonModele.php on line 7.
+ 1 APPPATH\Controllers\SiteController.php(25): App\Models\MonModele->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 13:35:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo rouge' at line 1 in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id_inst ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_inst ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_inst ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\MonModele.php(15): CodeIgniter\Database\BaseConnection->query('SELECT id_inst ...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(29): App\Models\MonModele->getValue('Institut du mac...')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-13 13:35:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo rouge' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MonModele.php(15): CodeIgniter\Database\BaseConnection->query('SELECT id_inst FROM institution Where nom_inst = Institut du macabo rouge')
+ 2 APPPATH\Controllers\SiteController.php(29): App\Models\MonModele->getValue('Institut du macabo rouge')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 13:38:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo rouge' at line 1 in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id_inst ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_inst ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_inst ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\MonModele.php(15): CodeIgniter\Database\BaseConnection->query('SELECT id_inst ...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(29): App\Models\MonModele->getValue('Institut du mac...')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-13 13:38:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo rouge' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MonModele.php(15): CodeIgniter\Database\BaseConnection->query('SELECT id_inst FROM institution Where nom_inst = Institut du macabo rouge;')
+ 2 APPPATH\Controllers\SiteController.php(29): App\Models\MonModele->getValue('Institut du macabo rouge')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 13:41:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo rouge' at line 1 in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id_inst ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_inst ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_inst ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\MonModele.php(15): CodeIgniter\Database\BaseConnection->query('SELECT id_inst ...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(29): App\Models\MonModele->getValue('Institut du mac...')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-13 13:41:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo rouge' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MonModele.php(15): CodeIgniter\Database\BaseConnection->query('SELECT id_inst FROM institution Where nom_inst = Institut du macabo rouge;')
+ 2 APPPATH\Controllers\SiteController.php(29): App\Models\MonModele->getValue('Institut du macabo rouge')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 13:43:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'soleil' at line 1 in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id_inst ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_inst ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_inst ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\MonModele.php(18): CodeIgniter\Database\BaseConnection->query('SELECT id_inst ...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(29): App\Models\MonModele->getValue('institut soleil')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-13 13:43:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'soleil' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MonModele.php(18): CodeIgniter\Database\BaseConnection->query('SELECT id_inst FROM institution Where nom_inst = institut soleil;')
+ 2 APPPATH\Controllers\SiteController.php(29): App\Models\MonModele->getValue('institut soleil')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 14:08:49 --> Undefined index: id_inst
+in APPPATH\Controllers\SiteController.php on line 43.
+ 1 APPPATH\Controllers\SiteController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_inst', 'APPPATH\\Controllers\\SiteController.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 14:09:08 --> Undefined index: id_inst
+in APPPATH\Controllers\SiteController.php on line 43.
+ 1 APPPATH\Controllers\SiteController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_inst', 'APPPATH\\Controllers\\SiteController.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 14:09:47 --> Undefined index: id_inst
+in APPPATH\Controllers\SiteController.php on line 43.
+ 1 APPPATH\Controllers\SiteController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_inst', 'APPPATH\\Controllers\\SiteController.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 14:11:43 --> Undefined index: id_inst
+in APPPATH\Controllers\SiteController.php on line 43.
+ 1 APPPATH\Controllers\SiteController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_inst', 'APPPATH\\Controllers\\SiteController.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 14:12:01 --> Undefined index: prop
+in APPPATH\Controllers\SiteController.php on line 43.
+ 1 APPPATH\Controllers\SiteController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: prop', 'APPPATH\\Controllers\\SiteController.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 14:13:46 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\SiteController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-13 14:14:11 --> Undefined index: id_inst
+in APPPATH\Controllers\SiteController.php on line 43.
+ 1 APPPATH\Controllers\SiteController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_inst', 'APPPATH\\Controllers\\SiteController.php', 43, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 14:42:20 --> mysqli_sql_exception: Unknown column '$param' in 'where clause' in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id_inst ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_inst ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_inst ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\MonModele.php(13): CodeIgniter\Database\BaseConnection->query('SELECT id_inst ...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(29): App\Models\MonModele->getValue('institut soleil')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-13 14:42:20 --> Unknown column '$param' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MonModele.php(13): CodeIgniter\Database\BaseConnection->query('SELECT id_inst From institution WHERE nom_inst = $param')
+ 2 APPPATH\Controllers\SiteController.php(29): App\Models\MonModele->getValue('institut soleil')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 15:03:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'soleil' at line 1 in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id_inst ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_inst ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_inst ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\MonModele.php(13): CodeIgniter\Database\BaseConnection->query('SELECT id_inst ...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(29): App\Models\MonModele->getValue('institut soleil')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-13 15:03:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'soleil' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MonModele.php(13): CodeIgniter\Database\BaseConnection->query('SELECT id_inst From institution WHERE nom_inst =institut soleil')
+ 2 APPPATH\Controllers\SiteController.php(29): App\Models\MonModele->getValue('institut soleil')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 15:05:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'soleil' at line 1 in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id_inst ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_inst ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_inst ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\MonModele.php(13): CodeIgniter\Database\BaseConnection->query('SELECT id_inst ...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(29): App\Models\MonModele->getValue('institut soleil')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-13 15:05:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'soleil' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MonModele.php(13): CodeIgniter\Database\BaseConnection->query('SELECT id_inst From institution WHERE nom_inst = institut soleil')
+ 2 APPPATH\Controllers\SiteController.php(29): App\Models\MonModele->getValue('institut soleil')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-13 15:09:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id_inst ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_inst ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_inst ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\MonModele.php(13): CodeIgniter\Database\BaseConnection->query('SELECT id_inst ...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(29): App\Models\MonModele->getValue('institut soleil')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-13 15:09:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\MonModele.php(13): CodeIgniter\Database\BaseConnection->query('SELECT id_inst From institution WHERE nom_inst = ?')
+ 2 APPPATH\Controllers\SiteController.php(29): App\Models\MonModele->getValue('institut soleil')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

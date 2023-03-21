@@ -1,0 +1,210 @@
+CRITICAL - 2023-03-17 11:18:17 --> Call to undefined method App\Models\InstitutModel::getInstituId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\SiteController.php(29): CodeIgniter\Model->__call('getInstituId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 11:20:47 --> Call to undefined method App\Models\InstitutModel::getInstituId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\SiteController.php(29): CodeIgniter\Model->__call('getInstituId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 11:24:13 --> Call to undefined method App\Models\InstitutModel::getInstituId
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\SiteController.php(29): CodeIgniter\Model->__call('getInstituId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 11:28:05 --> Undefined variable: data1
+in APPPATH\Controllers\SiteController.php on line 42.
+ 1 APPPATH\Controllers\SiteController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data1', 'APPPATH\\Controllers\\SiteController.php', 42, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 11:53:41 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\InstitutModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...', 'Institut du mac...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(31): App\Models\InstitutModel->getInstitutId('Institut du mac...')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 11:53:41 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\InstitutModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT id FROM institution Where nom_inst = ? ', 'Institut du macabo rouge')
+ 2 APPPATH\Controllers\SiteController.php(31): App\Models\InstitutModel->getInstitutId('Institut du macabo rouge')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 12:03:08 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id FROM ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id FROM ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id FROM ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\InstitutModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT id FROM ...', 'institut du mac...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(31): App\Models\InstitutModel->getInstitutId('institut du mac...')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-17 12:03:08 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\InstitutModel.php(20): CodeIgniter\Database\BaseConnection->query('SELECT id FROM institution Where nom_inst = ? ', 'institut du macabo rouge')
+ 2 APPPATH\Controllers\SiteController.php(31): App\Models\InstitutModel->getInstitutId('institut du macabo rouge')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 12:12:18 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\SiteController.php(45): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 12:28:07 --> Undefined index: id_institut
+in APPPATH\Controllers\SiteController.php on line 45.
+ 1 APPPATH\Controllers\SiteController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_institut', 'APPPATH\\Controllers\\SiteController.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 12:29:38 --> Undefined index: id_institut
+in APPPATH\Controllers\SiteController.php on line 45.
+ 1 APPPATH\Controllers\SiteController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_institut', 'APPPATH\\Controllers\\SiteController.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 12:32:11 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\SiteController.php(46): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-17 13:52:49 --> Undefined index: $nom_diplome
+in APPPATH\Controllers\SiteController.php on line 46.
+ 1 APPPATH\Controllers\SiteController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: $nom_diplome', 'APPPATH\\Controllers\\SiteController.php', 46, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 14:06:48 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: H�te inconnu.  in C:\xampp\htdocs\monuniv\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\monuniv\system\Email\Email.php(1868): fsockopen('tls://txpro11.f...', 465, 0, 'php_network_get...', 60)
+#2 C:\xampp\htdocs\monuniv\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\monuniv\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\monuniv\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(54): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#8 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 14:06:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 14:06:48 --> 
+ERROR - 2023-03-17 14:10:29 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: H�te inconnu.  in C:\xampp\htdocs\monuniv\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\monuniv\system\Email\Email.php(1868): fsockopen('tls://txpro11.f...', 465, 0, 'php_network_get...', 60)
+#2 C:\xampp\htdocs\monuniv\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\monuniv\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\monuniv\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#8 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 14:10:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 14:10:29 --> 
+ERROR - 2023-03-17 14:12:15 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: H�te inconnu.  in C:\xampp\htdocs\monuniv\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\monuniv\system\Email\Email.php(1868): fsockopen('tls://txpro11.f...', 465, 0, 'php_network_get...', 60)
+#2 C:\xampp\htdocs\monuniv\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\monuniv\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\monuniv\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#8 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 14:12:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 14:12:15 --> 
+ERROR - 2023-03-17 14:20:50 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: H�te inconnu.  in C:\xampp\htdocs\monuniv\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\monuniv\system\Email\Email.php(1868): fsockopen('tls://txpro11.f...', 465, 0, 'php_network_get...', 60)
+#2 C:\xampp\htdocs\monuniv\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\monuniv\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\monuniv\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#8 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 14:20:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 14:20:50 --> 
+INFO - 2023-03-17 14:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-17 15:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-17 22:38:50 --> Undefined index: nom_filier
+in APPPATH\Controllers\SiteController.php on line 48.
+ 1 APPPATH\Controllers\SiteController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nom_filier', 'APPPATH\\Controllers\\SiteController.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-17 22:39:56 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: H�te inconnu.  in C:\xampp\htdocs\monuniv\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\monuniv\system\Email\Email.php(1868): fsockopen('tls://txpro11.f...', 465, 0, 'php_network_get...', 60)
+#2 C:\xampp\htdocs\monuniv\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\monuniv\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\monuniv\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(57): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#8 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 22:39:56 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 22:39:56 --> 
+INFO - 2023-03-17 22:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-03-17 22:42:15 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo failed: H�te inconnu.  in C:\xampp\htdocs\monuniv\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1868, Array)
+#1 C:\xampp\htdocs\monuniv\system\Email\Email.php(1868): fsockopen('tls://txpro11.f...', 465, 0, 'php_network_get...', 60)
+#2 C:\xampp\htdocs\monuniv\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\monuniv\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\monuniv\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(57): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#8 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-03-17 22:42:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-03-17 22:42:15 --> 
+INFO - 2023-03-17 22:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

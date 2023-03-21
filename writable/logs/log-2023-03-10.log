@@ -1,0 +1,300 @@
+CRITICAL - 2023-03-10 20:31:49 --> syntax error, unexpected '}', expecting ';'
+in APPPATH\Controllers\SiteController.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SiteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiteController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SiteController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SiteController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 20:32:05 --> syntax error, unexpected '}', expecting ';'
+in APPPATH\Controllers\SiteController.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SiteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiteController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SiteController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SiteController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 21:40:02 --> mysqli_sql_exception: Unknown column 'nomPropriete' in 'order clause' in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM i...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 C:\xampp\htdocs\monuniv\app\Models\SiteModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(12): App\Models\SiteModel->get_institut()
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 21:40:02 --> Unknown column 'nomPropriete' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\SiteModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM institution ORDER BY nomPropriete;')
+ 2 APPPATH\Controllers\SiteController.php(12): App\Models\SiteModel->get_institut()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-10 21:40:07 --> mysqli_sql_exception: Unknown column 'nomPropriete' in 'order clause' in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM i...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM i...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM i...')
+#3 C:\xampp\htdocs\monuniv\app\Models\SiteModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM i...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(12): App\Models\SiteModel->get_institut()
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-10 21:40:07 --> Unknown column 'nomPropriete' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\SiteModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM institution ORDER BY nomPropriete;')
+ 2 APPPATH\Controllers\SiteController.php(12): App\Models\SiteModel->get_institut()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:16:34 --> Call to a member function post() on null
+in APPPATH\Views\acceuil.php on line 84.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 4 APPPATH\Controllers\SiteController.php(12): view('acceuil')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:16:38 --> Call to a member function post() on null
+in APPPATH\Views\acceuil.php on line 84.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 4 APPPATH\Controllers\SiteController.php(12): view('acceuil')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:20:16 --> syntax error, unexpected '$data_univ' (T_VARIABLE)
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SiteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiteController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SiteController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SiteController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:20:23 --> syntax error, unexpected '$data_univ' (T_VARIABLE)
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SiteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiteController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SiteController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SiteController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:21:15 --> syntax error, unexpected '$data_univ' (T_VARIABLE)
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SiteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiteController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SiteController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SiteController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:21:17 --> syntax error, unexpected '$data_univ' (T_VARIABLE)
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SiteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiteController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SiteController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SiteController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:21:23 --> syntax error, unexpected '$data_univ' (T_VARIABLE)
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SiteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiteController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SiteController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SiteController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:22:03 --> syntax error, unexpected '$data_univ' (T_VARIABLE)
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SiteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiteController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SiteController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SiteController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:22:06 --> syntax error, unexpected '$data_univ' (T_VARIABLE)
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SiteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiteController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SiteController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SiteController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:22:37 --> syntax error, unexpected '$data_univ' (T_VARIABLE)
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SiteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiteController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SiteController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SiteController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:22:39 --> syntax error, unexpected '$data_univ' (T_VARIABLE)
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\SiteController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SiteController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SiteController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\SiteController')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\SiteController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:24:14 --> Call to a member function post() on null
+in APPPATH\Views\acceuil.php on line 84.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 4 APPPATH\Controllers\SiteController.php(16): view('acceuil')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:24:53 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:24:55 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:31:52 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:32:33 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 22:33:21 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 22:35:03 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 22:37:01 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 22:38:35 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 22:38:36 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 22:47:29 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 22:48:43 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 22:51:50 --> Call to a member function get_institut() on null
+in APPPATH\Controllers\SiteController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:18:22 --> syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\acceuil.php on line 86.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 3 APPPATH\Controllers\SiteController.php(16): view('acceuil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:19:34 --> Class 'App\Models\SiteModel' not found
+in APPPATH\Controllers\SiteController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:20:24 --> Class 'App\Models\SiteModel' not found
+in APPPATH\Controllers\SiteController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\SiteController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:22:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\SiteController.php(15): CodeIgniter\Model->__call('get_institut', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:24:24 --> syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\acceuil.php on line 86.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 3 APPPATH\Controllers\SiteController.php(16): view('acceuil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-10 23:25:15 --> syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\acceuil.php on line 86.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 3 APPPATH\Controllers\SiteController.php(16): view('acceuil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

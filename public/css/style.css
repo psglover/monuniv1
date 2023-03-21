@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&family=Roboto+Mono&display=swap");
+
+:root {
+  --btnColor: #29d9d5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9px;
+}
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+}
+section {
+  margin-top: 50px;
+}
+
+header {
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 5%;
+}
+
+header .logo a {
+  font-size: 25px;
+  color: var(--btnColor);
+}
+
+header .logo a span {
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu li {
+  margin: 0 15px;
+  list-style-type: none;
+}
+.menu li a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.btn-inscrire {
+  color: var(--btnColor);
+  font-size: 14px;
+  font-weight: bolder;
+  border: 2px solid var(--btnColor);
+  padding: 5px 20px;
+  transition: 0.5s;
+}
+
+.btn-inscrire:hover {
+  background-color: var(--btnColor);
+  color: #fff;
+}
+
+.responsive-menu {
+  display: none;
+}
+/* section acceuil */
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), #333), url("./book.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.home h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  -webkit-text-stroke: #fff 0.02px;
+  color: #fff;
+}
+.home h4 {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.home .flash {
+  color: red;
+}
+.home p {
+  font-size: 1rem;
+  color: #fff;
+}
+.home-btn {
+  margin-bottom: 20px;
+}
+.search_certificat {
+  background-color: #222;
+  padding: 20px;
+  width: 70%;
+  position: absolute;
+  bottom: -50px;
+}
+
+.search_certificat form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search_certificat form div,
+.search_certificat form input[type="submit"] {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.search_certificat form label {
+  color: #999;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.search_certificat form input {
+  padding: 5px 20px;
+  background-color: transparent;
+  border: 1px solid var(--btnColor);
+  outline: none;
+  width: 100%;
+  font-size: 13px;
+  color: #fff;
+}
+.search_certificat form input[type="submit"] {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--btnColor);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.search_certificat form input[type="submit"]:hover {
+  box-shadow: 0 0 10px var(--btnColor);
+}
+#recherche_dip {
+  color: var(--btnColor);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* section contact */
+.contact {
+  padding: 0 10%;
+  margin-bottom: 2rem;
+  height: 90vh;
+}
+
+.contact h1 {
+  color: var(--btnColor);
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.contact form {
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.content-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.content-contact .gauche,
+.content-contact .droite {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 2px;
+}
+
+.contact form label {
+  font-size: 1.8rem;
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+.contact form input,
+.contact form select {
+  padding: 8px;
+  outline: none;
+  border: 1px solid #999;
+}
+
+.contact form input:focus,
+.contact form select:focus,
+.contact textarea:focus {
+  border: 1px solid var(--btnColor);
+}
+.contact textarea {
+  padding: 8px;
+  outline: none;
+  border: 1px solid #999;
+}
+
+.submit-btn {
+  width: fit-content;
+  padding: 8px 40px;
+  background-color: #222;
+  border: 1px solid #222;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.submit-btn:hover {
+  background-color: var(--btnColor);
+  border: 1px solid var(--btnColor);
+  color: #fff;
+}
+
+/* inserer institution */
+
+.contact h4 {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.flash {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.table_responsive {
+  max-width: 100%;
+  border: 1px solid var(--btnColor);
+  background-color: #fff;
+  padding: 1rem;
+  color: black;
+  overflow: auto;
+  margin: auto;
+  border-radius: 4px;
+  max-height: fit-content;
+}
+
+.container_inst h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  -webkit-text-stroke: #fff 0.02px;
+  color: #fff;
+}
+table {
+  width: 100%;
+  font-size: 1rem;
+  color: #444;
+  white-space: nowrap;
+  border-collapse: collapse;
+}
+table > head {
+  background-color: #29d9d5;
+  color: #fff;
+}
+table > head th {
+  padding: 1rem;
+}
+table th,
+table td {
+  border: 1px solid var(--btnColor);
+  padding: 10px 15px;
+}
+.action_btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container_inst > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_ajouter > a {
+  color: var(--btnColor);
+  font-size: 14px;
+  font-weight: bolder;
+  border: 2px solid var(--btnColor);
+  padding: 5px 20px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.btn_ajouter > a:hover {
+  background-color: var(--btnColor);
+  color: #fff;
+}
+
+.action_btn > a {
+  text-decoration: none;
+  color: #444;
+  background: #fff;
+  border: 1px solid orange;
+  display: inline-block;
+  padding: 5px 20px;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: 0.5s ease-in-out;
+}
+.action_btn > a:nth-child(1) {
+  border-color: var(--btnColor);
+}
+.action_btn > a:nth-child(2) {
+  border-color: orange;
+}
+
+.action_btn > a:hover {
+  box-shadow: 0 3px 8px #000300;
+}
+table > tbody > tr {
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
+}
+table > tbody > tr:nth-child(even) {
+  background-color: rgb(238, 238, 238);
+}
+
+/* Ajout des institution */
+.container_ajout {
+  padding: 0 10%;
+  align-items: center;
+  height: 100vh;
+}
+
+.container_ajout h1 {
+  color: var(--btnColor);
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.container_ajout form {
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.container_ajout .content_ajout {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+.content_ajout label {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.content_ajout input,
+.content_ajout input[type="submit"] {
+  padding: 8px;
+  outline: none;
+  border: 1px solid #999;
+  font-weight: bold;
+}
+
+.content_ajout input:focus,
+.content_ajout select:focus {
+  border: 1px solid var(--btnColor);
+}
+.contact .content_connexion {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 2px;
+}
+
+/* pied de page */
+footer {
+  width: 100%;
+  background-color: #222;
+  padding: 10px 0;
+  font-size: 1rem;
+  text-align: center;
+  bottom: 0;
+  position: relative;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer p span {
+  color: var(--btnColor);
+}
+@media (max-width: 750px) {
+  header .menu {
+    display: none;
+  }
+  .btn-inscrire {
+    display: none;
+  }
+  .home-btn {
+    display: block;
+  }
+
+  .home h2 {
+    font-size: 18px;
+    color: #fff;
+  }
+  .home h4 {
+    font-size: 18px;
+  }
+  .home p {
+    text-align: center;
+    font-size: 10px;
+  }
+  .search_certificat {
+    width: 100%;
+    height: 100px;
+  }
+
+  .search_certificat form input {
+    font-size: 10px;
+  }
+
+  .search_certificat form input[type="submit"] {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .search_certificat form label {
+    display: none;
+  }
+
+  #recherche_dip {
+    font-size: 1.2rem;
+  }
+  .contact form label,
+  .content_ajout label {
+    font-size: 1rem;
+    padding: 0 5px;
+  }
+  .contact textarea {
+    padding: 3px;
+    height: auto;
+  }
+
+  /*menu responsif */
+  .responsive-menu {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .responsive-menu::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: var(--btnColor);
+    width: 28px;
+    box-shadow: 0 10px 0 var(--btnColor);
+    transform: translateY(-10px);
+    transition: 0.5s;
+  }
+  .responsive-menu.active::after {
+    box-shadow: 0 0 0 var(--btnColor);
+    transform: rotate(45deg);
+  }
+  .responsive-menu::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background-color: var(--btnColor);
+    width: 28px;
+    box-shadow: 0 10px 0 var(--btnColor);
+    transform: translateY(-10px);
+  }
+  .responsive-menu.active::before {
+    box-shadow: 0 0 0 var(--btnColor);
+    transform: rotate(-45deg);
+  }
+  header .menu.responsive {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    flex-direction: column;
+    background-color: #222;
+    align-items: unset;
+  }
+  header .menu.responsive li {
+    margin: 20px;
+    width: 100px;
+    padding-left: 20px;
+  }
+
+  .content-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .content-contact .gauche,
+  .content-contact .droite {
+    width: 90%;
+  }
+  .content_connexion h4 {
+    font-size: 1.5rem;
+  }
+
+  @keyframes animate-menu {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+}

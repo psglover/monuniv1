@@ -1,0 +1,363 @@
+CRITICAL - 2023-03-11 08:08:21 --> syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\acceuil.php on line 86.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 3 APPPATH\Controllers\SiteController.php(16): view('acceuil')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 08:18:48 --> Undefined property: CodeIgniter\View\View::$input
+in APPPATH\Views\acceuil.php on line 84.
+ 1 APPPATH\Views\acceuil.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$input', 'APPPATH\\Views\\acceuil.php', 84, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(16): view('acceuil')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 09:19:38 --> Undefined variable: request
+in APPPATH\Views\acceuil.php on line 84.
+ 1 APPPATH\Views\acceuil.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Views\\acceuil.php', 84, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 09:26:28 --> Undefined variable: request
+in APPPATH\Views\acceuil.php on line 84.
+ 1 APPPATH\Views\acceuil.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Views\\acceuil.php', 84, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 09:30:11 --> Undefined variable: request
+in APPPATH\Views\acceuil.php on line 84.
+ 1 APPPATH\Views\acceuil.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', 'APPPATH\\Views\\acceuil.php', 84, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 09:32:44 --> Undefined variable: mesInstituts
+in APPPATH\Views\acceuil.php on line 86.
+ 1 APPPATH\Views\acceuil.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: mesInstituts', 'APPPATH\\Views\\acceuil.php', 86, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 09:33:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Views\acceuil.php on line 86.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 4 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:07:09 --> Undefined property: mysqli::$nom_inst
+in APPPATH\Views\acceuil.php on line 88.
+ 1 APPPATH\Views\acceuil.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$nom_inst', 'APPPATH\\Views\\acceuil.php', 88, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:10:40 --> Cannot use object of type mysqli as array
+in APPPATH\Views\acceuil.php on line 88.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 4 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:11:50 --> Undefined property: mysqli::$nom_inst
+in APPPATH\Views\acceuil.php on line 88.
+ 1 APPPATH\Views\acceuil.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$nom_inst', 'APPPATH\\Views\\acceuil.php', 88, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:12:45 --> Undefined property: mysqli::$nom_inst
+in APPPATH\Views\acceuil.php on line 89.
+ 1 APPPATH\Views\acceuil.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$nom_inst', 'APPPATH\\Views\\acceuil.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:19:49 --> Cannot use object of type mysqli as array
+in APPPATH\Views\acceuil.php on line 88.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 4 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:20:28 --> Undefined property: mysqli::$nom_inst
+in APPPATH\Views\acceuil.php on line 88.
+ 1 APPPATH\Views\acceuil.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$nom_inst', 'APPPATH\\Views\\acceuil.php', 88, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:25:11 --> Undefined property: mysqli::$nom_inst
+in APPPATH\Views\acceuil.php on line 88.
+ 1 APPPATH\Views\acceuil.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$nom_inst', 'APPPATH\\Views\\acceuil.php', 88, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:25:16 --> Undefined property: mysqli::$nom_inst
+in APPPATH\Views\acceuil.php on line 88.
+ 1 APPPATH\Views\acceuil.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$nom_inst', 'APPPATH\\Views\\acceuil.php', 88, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 10:25:35 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$result
+in APPPATH\Views\acceuil.php on line 86.
+ 1 APPPATH\Views\acceuil.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$result', 'APPPATH\\Views\\acceuil.php', 86, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 12:38:22 --> Undefined variable: mesInstituts
+in APPPATH\Views\acceuil.php on line 86.
+ 1 APPPATH\Views\acceuil.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: mesInstituts', 'APPPATH\\Views\\acceuil.php', 86, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(17): view('acceuil')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 12:40:21 --> Undefined variable: mesInstituts
+in APPPATH\Views\acceuil.php on line 86.
+ 1 APPPATH\Views\acceuil.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: mesInstituts', 'APPPATH\\Views\\acceuil.php', 86, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(17): view('acceuil')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 12:43:07 --> Undefined variable: mesInstituts
+in APPPATH\Views\acceuil.php on line 86.
+ 1 APPPATH\Views\acceuil.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: mesInstituts', 'APPPATH\\Views\\acceuil.php', 86, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(17): view('acceuil')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 12:45:55 --> The route for "SiteController/simple" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('SiteController/simple')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\SiteController.php(17): redirect('SiteController/simple')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 12:46:37 --> The route for "/simple" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/simple')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\SiteController.php(17): redirect('/simple')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 12:54:39 --> The route for "/simple" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/simple')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\SiteController.php(17): redirect('/simple')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 12:55:58 --> The route for "/simple" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/simple')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\SiteController.php(17): redirect('/simple')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 13:58:33 --> "xss_clean" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('xss_clean')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'touoping@gmail.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(155): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 APPPATH\Controllers\SiteController.php(38): CodeIgniter\Controller->validateData([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 13:59:51 --> "xss_clean" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('xss_clean')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'touoping@gmail.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(155): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 APPPATH\Controllers\SiteController.php(38): CodeIgniter\Controller->validateData([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 14:00:42 --> "xss_clean" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('xss_clean')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('email', 'email', 'touoping@gmail.com', [...], [...])
+ 3 SYSTEMPATH\Controller.php(155): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 APPPATH\Controllers\SiteController.php(38): CodeIgniter\Controller->validateData([...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 14:14:17 --> Undefined variable: validation
+in APPPATH\Views\acceuil.php on line 45.
+ 1 APPPATH\Views\acceuil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH\\Views\\acceuil.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 14:14:28 --> Undefined variable: validation
+in APPPATH\Views\acceuil.php on line 45.
+ 1 APPPATH\Views\acceuil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH\\Views\\acceuil.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-11 14:26:21 --> Undefined variable: validation
+in APPPATH\Views\acceuil.php on line 45.
+ 1 APPPATH\Views\acceuil.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'APPPATH\\Views\\acceuil.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\acceuil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('acceuil', [], true)
+ 5 APPPATH\Controllers\SiteController.php(13): view('acceuil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->simple()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-11 16:07:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo' at line 1 in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id_inst ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_inst ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_inst ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\SiteModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT id_inst ...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(23): App\Models\SiteModel->get_institut_id('Institut du mac...')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-11 16:07:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\SiteModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT id_inst FROM institution Where institution.nom_inst = Institut du macabo ;')
+ 2 APPPATH\Controllers\SiteController.php(23): App\Models\SiteModel->get_institut_id('Institut du macabo')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-11 16:08:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo' at line 1 in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id_inst ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_inst ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_inst ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\SiteModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT id_inst ...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(23): App\Models\SiteModel->get_institut_id('Institut du mac...')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-11 16:08:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\SiteModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT id_inst FROM institution Where institution.nom_inst = Institut du macabo ;')
+ 2 APPPATH\Controllers\SiteController.php(23): App\Models\SiteModel->get_institut_id('Institut du macabo')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-03-11 16:09:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo' at line 1 in C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\monuniv\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id_inst ...', 0)
+#1 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_inst ...')
+#2 C:\xampp\htdocs\monuniv\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_inst ...')
+#3 C:\xampp\htdocs\monuniv\app\Models\SiteModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT id_inst ...')
+#4 C:\xampp\htdocs\monuniv\app\Controllers\SiteController.php(23): App\Models\SiteModel->get_institut_id('Institut du mac...')
+#5 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+#6 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+#7 C:\xampp\htdocs\monuniv\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\monuniv\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-11 16:09:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'du macabo' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\SiteModel.php(19): CodeIgniter\Database\BaseConnection->query('SELECT id_inst FROM institution Where nom_inst = Institut du macabo ;')
+ 2 APPPATH\Controllers\SiteController.php(23): App\Models\SiteModel->get_institut_id('Institut du macabo')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SiteController->enregistrer()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SiteController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
